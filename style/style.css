@@ -71,7 +71,111 @@
     margin-top: 24px;
 }
 
-#hero .hero-content .button-container {
+.button-container {
     text-align: center;
     margin-top: 55px;
+}
+
+#food-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 167px 300px 179px 300px;
+}
+
+#food-content .card .card-content {
+    width: 691px;
+    margin: 0 auto;
+}
+#food-content .card .card-content h4 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+#food-content .card .card-content h2 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.food-card-box {
+    display: flex;
+    gap: 30px;
+    margin-top: 48px;
+}
+
+.food-card {
+    width: 425px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.food-card .food-image img {
+    width: 100%;
+}
+
+.food-card span {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 5px 10px;
+    margin-top: 32px;
+}
+
+.food-card h3 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.food-card p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+#banner-section{
+    height: 671px;
+    display: flex;
+    justify-content: center;
+}
+#banner-section .banner-image{
+    width: 50%;
+}                        
+#banner-section .banner-image div{
+    background-image: url(/assets/social-bg.png);
+    width: 100%;
+}                        
+#banner-section .banner-content{
+    width: 50%;
 }
