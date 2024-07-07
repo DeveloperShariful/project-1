@@ -87,6 +87,7 @@
     width: 691px;
     margin: 0 auto;
 }
+
 #food-content .card .card-content h4 {
     color: rgb(16, 16, 16);
     font-family: Work Sans;
@@ -164,18 +165,133 @@
     opacity: 0.7;
     margin-top: 24px;
 }
-#banner-section{
+
+#about-section {
+    height: 671px;
+    display: flex;
+}
+
+#about-section .about-image {
+    width: 960px;
+}
+
+#about-section .about-content {
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-section .about-content h1 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#about-section .about-content p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+    margin-bottom: 48px;
+}
+
+#about-section .about-content h3 {
+    width: 100%;
+    padding: 30px 0;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+
+#about-section .about-content .about-icon i {
+    margin-top: 32px;
+    font-size: 25px;
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+#card {
+    height: 991px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card .food-card {
+    width: 424px !important;
+    border: 1px dashed black;
+}
+#social-section{
     height: 671px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgb(255, 255, 255, 0.9),rgb(255, 255, 255, 0.9)), url(../assets/social-bg.png);
 }
-#banner-section .banner-image{
-    width: 50%;
-}                        
-#banner-section .banner-image div{
-    background-image: url(/assets/social-bg.png);
-    width: 100%;
-}                        
-#banner-section .banner-content{
-    width: 50%;
+#social-section .about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#social-section .about-content h1{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+#social-section .about-content p{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.6;
+margin-bottom: 48px;
+}
+#social-section .about-content h3{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    box-sizing: border-box;
+border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+border-top: 1px solid rgba(16, 16, 16, 0.2);
+width: 1300px;
+padding: 30px 0;
+}
+#social-section .about-content .about-icon i{
+    margin-top: 32px;
+    font-size: 25px;
+    margin-right: 13px;
+    cursor: pointer;
 }
